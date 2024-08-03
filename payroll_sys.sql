@@ -102,6 +102,7 @@ IS
   v_salary NUMBER;
   v_tax_amount NUMBER;
   v_net_salary NUMBER;
+
 BEGIN
   FOR employee_rec IN (SELECT employee_id FROM employees)
   LOOP
