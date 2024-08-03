@@ -21,7 +21,6 @@ head3.setAttribute('class', 'margin-lefty')
 head4.setAttribute('class', 'margin-lefty')
 head5.setAttribute('class', 'margin-lefty')
 
-
 head2.textContent = "Basic"
 head3.textContent = "Core"
 head4.textContent = "Complete"
@@ -63,8 +62,6 @@ for (i = 0; i < arr.length; i++) {
 
     // body.appendChild(table)
 }
-
-
 
 var btn = document.createElement('button');
 btn.textContent = "See all features"
@@ -187,8 +184,6 @@ function showless() {
         tr[i].style.display = "none";
         removeBtn.remove();
         seeMoreBtn.style.display = "block";
-
-
     }
 }
 seeMoreBtn.addEventListener('click', showMore)
