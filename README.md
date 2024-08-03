@@ -88,12 +88,3 @@ The motivation behind this Gusto Clone Project is to practice and showcase front
    - Outline the design and layout structure, ensuring alignment with the original Gusto platform.
 
 By focusing on the front-end aspects of the Gusto platform, this project provides an opportunity to develop a polished and professional user interface, while gaining practical experience with essential web development techniques.
-
-Many Youtube Videos:
-for Navbar: https://youtu.be/wHFflWvii3M
-for Hamburger: https://www.youtube.com/watch?v=DZg6UfS5zYg
-
-Thank You
-
-Contributors : Robin Singh(github profile: Rskamra002) and Neeraj Rawat.
-
