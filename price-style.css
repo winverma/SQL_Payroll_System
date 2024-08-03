@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #f8f5f2;
+}
+#price-heading{
+    width: 100%;
+    height: 40vh;
+    background-color: #f8f5f2;
+    font-family: "Segoe UI";
+
+}
+.center{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.large-font {
+    font-size:2em;
+    /* margin: 1% 5% 0% 5%; */
+
+}
+.medium-font {
+    font-size: 1em;
+    margin-bottom:15%;
+    margin-left:1%;
+
+}
+ #price-heading > h1 {
+    font-size: 3.5em;
+    font-size-adjust: 2em;
+}
+
+
+#plans-container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    gap: 2%;
+    height: 280vh;
+
+}
+
+
+#plans-container > div {
+    background-color: white;
+    padding: 2%;
+    font-size: 1.5em;
+    flex-basis: 20%;
+    /* min-width:20%; */
+    flex-wrap: wrap;
+    height: 260vh;
+ 
+}
+
+#plans-container > div:nth-child(3) {
+    height: 258.5vh;
+}
+
+/* top margin for plan boxes */
+.plans-cont-margin {    
+    margin-top:2.5%;
+}
+
+
+.red {
+    color: #ff7332;
+    font-weight: bold;
+}
+.margin {
+    margin-bottom: 10%;
+}
+
+.line {
+    width: 100%;
+    height: 0.1vh;
+    background-color:lightgrey;
+    margin:1vh 0vh 2vh 0vh;
+}
+.get-started {
+    font-size: 1em;
+    padding: 5% 8% 5% 8%;
+    border-radius: 5%;
+    background-color: #ef523c;
+    color: white;
+    margin:2% 1% 5% 1%;
+
+}
+
+.recommended {
+    border-top: 6vh solid teal;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    border-left: 0.2vw solid teal;
+    border-right: 0.2vw solid teal;
+    border-bottom: 0.2vw solid teal;
+}
+.recommended h3+p {
+    margin-bottom: 22%;
+}
+#plans-container  ul {
+    list-style: none;
+  }
+
+#plans-container ul > li {
+      font-size: 1em;
+      line-height: 7vh;
+  }
+#plans-container ul li:before {
+    content: '✓ ';
+    color: rgb(0, 139, 23);
+
+  }
+
+
+
+/* middle container */
+
+
+#compare-cont {
+    width: 60%;
+    /* border: 2px solid red; */
+    margin: auto;
+    text-align: center;
+    /* background-color: rgb(0, 139, 23); */
+    height: 55vh;
+}
+
+#compare-cont a {
+    font-size: 1.5vw;
+    color: teal;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#compare-cont a+h1{
+    font-size: 3vw;
+    margin-top: 8%;
+}
+
+#compare-cont h1+p {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+#compare-cont p+p {
+    font-size: 1.4em;
+    margin-top: 1vh;
+}
+
+.mid-btn {
+    padding: 2% 2.5% 2% 2.5%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin-top: 4%;
+}
+
+#extra-benefits{
+    width: 100%;
+    height: 160vh;
+    background-color:#feefe8;
+    padding-top: 5%;
+    /* gap: 20%; */
+
+}
+
+#extra-benefits> div{
+    width: 90%;
+    /* background-color: royalblue; */
+    margin: auto;
+    display:grid;
+    gap: 10%;
+    grid-template-columns: 40% 22% 20%;
+    grid-template-areas: "a b c"
+                        "a d e"
+                        "h f g";
+}
+#extra-benefits h1{
+    font-size: 2em;
+}
+#extra-benefits #item-4 > h4+p {
+    margin-top: 40%;
+}
+
+.big-line {
+    width: 230%;
+    margin-top: 15%;
+    height: 0.4vh;
+    background-color: white;
+}
+
+#extra-benefits h1+p {
+    font-size: 1.2em;
+    margin: 5% 0% 5% 0%;
+}
+#extra-benefits p+h4, p+h4+h4, h4+h4 {
+    font-size: 1.2em;
+}
+
+#item-8 {
+    /* border: 2px solid black; */
+    width: 200%;
+    line-height: 5vh;
+    color: grey;
+}
+#item-1 {
+    grid-area: a;
+}
+
+#item-1 h1 {
+    font-size: 3em;
+}
+
+#item-2 {
+    grid-area: b;
+}
+#item-3 {
+    grid-area: c;
+}
+
+#item-4 {
+    grid-area: d;
+}
+#item-5 {
+    grid-area: e;
+}
+#item-6 {
+    grid-area: f;
+}
+#item-7 {
+    grid-area: g;
+}
+#item-8 {
+    grid-area: h;
+}
+
+/* Media QUERY */
+
+@media(max-width:1155px) {
+
+    #plans-container {
+        width: 45%;
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        gap: 2%;
+        flex-wrap: wrap;
+        min-width: 100%;;
+        height: auto;
+    
+    }
+    
+    #plans-container div {
+        background-color: white;
+        padding: 2%;
+        font-size: 3.5vh;
+        flex-basis:40%;
+    }
+
+    #plans-container div:nth-child(2), #plans-container div:nth-child(4) {
+        height: max-content;
+    }
+    #plans-container div:nth-child(1) , #plans-container div:nth-child(3){
+        height: inherit;
+    }
+
+
+}

@@ -1,0 +1,191 @@
+#hamburger{
+    display: none;
+    position: absolute;
+    top: 13px;
+    right:20px;
+    /* float: right; */
+    /* border: 1px solid red; */
+    margin-top: 5PX;
+  }
+  #ham{
+    color:silver;
+  }
+  #certication{
+  }
+
+}
+  #wrapper{
+    width: 100vw;
+  }
+  #logo{
+    height: 36px;
+    /* border: 1px solid red; */
+  }
+  #covid-msg{
+    background-color: #FFF2E0;
+    display: none;
+    /* border: 1px solid red; */
+    margin:-20px -22px 5px;
+    padding: 14px 9px;
+  }
+  #covid-msg > p{
+    font-size: 18px;
+    display: inline;
+  }
+  #covid-msg  a{
+    text-decoration: none;
+    color:#0B8180 ;
+  }
+  #covid-msg > #cross{
+    float: right;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  #navbar{
+    /* border: 1px solid red; */
+    padding: 16px 25px 14px;
+    /* background: green; */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 110px;
+    /* covidbtnproblem */
+    max-height: 70px;
+    /* height: 60; */
+    background-color: white;
+    z-index: 100;
+  }
+  #navbar .main-ul{
+    /* border: 1px solid red; */
+    display: flex;
+    list-style-type: none;
+    width: 90%;
+  }
+  /* #navbar .main-ul .main-li:first-child{
+    width: 10%;
+  } */
+  #navbar .main-ul .main-li{
+      width: 14%;
+      /* border: 1px solid red; */
+      padding-top: 6px;
+    }
+    #navbar .main-ul > .nav-pricing, #navbar .main-ul > .nav-resource{
+      width: 10%;
+    }
+    #navbar .main-ul .main-li > a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px 0px 30px 0;
+    font-weight: 300;
+  }
+  #navbar .main-ul > .blue-text > a{
+      color: #2BABAE;
+    }
+  #navbar .main-ul .main-li > a:hover{
+    color: #0B8180;
+    height: 100%;
+    /* background-color: red; */
+  }
+  .sebmenu ul{
+    /* list-style: none; */
+    /* display: flex; */
+    /* height: 320px; */
+    /* border: 1px solid red;    */
+  }
+  .sebmenu{
+    display: none;
+  }
+  .main-li:hover > .sebmenu{
+    display: block;
+    position: absolute;
+    margin-top:28px;
+    background-color: white;
+  }
+  .main-li>a:hover + .sebmenu{
+    display: block;
+    transition: 2s ease-in;
+  }
+  .sebmenu > ul{
+    list-style: none;
+    width: 540px;
+    padding: 20px;
+    /* border: 1px solid red; */
+    border:2px solid #f8f5f2b9;
+    /* box-shadow: 3px 3px 3px 3px #F8F5F2; */
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    text-align: left;
+    font-size: 18px;
+    word-spacing:2px;
+    line-height: 1.5;
+  }
+  .sebmenu > ul > li{
+    padding-bottom: 5px;
+    border-bottom: 1px solid silver;
+  }
+  .sebmenu > ul > li:last-child{
+    border-bottom: none;
+  }
+  .sebmenu > ul p{
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .sebmenu > ul > .center-text-payroll{
+    text-align: center;
+    background-color: #F8F5F2;
+    border: none;
+  }
+  .sebmenu > ul > li > a{
+    color: #0B8180;
+    text-decoration: none;
+  }
+  .main-li i {
+    border: solid black;
+    border-width: 0px 2px  2px 0px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  }
+  .main-li:hover > a > i{
+    transform: rotate(225deg);
+    transition: 0.3s ease-in;
+  }
+  #navbar .main-ul .main-li >.signin-btn{
+    /* border: 1px solid red; */
+    padding: 8px 18px;
+    margin-left: 10px;
+    background-color:#f8f5f2b9;
+    /* color: ; */
+  }
+  .signin-btn{
+    padding: 8px 18px;
+    margin-left: 10px;
+    background-color:#f8f5f2b9;
+  }
+  /* search and sign in button */
+  .search-and-sign{
+    position: absolute;
+    /* covidbtnproblem */
+    top: 18px;
+    right:26px;
+    font-size: 18px;
+  }
+  .search-and-sign > a{
+    color: #0B8180;
+    text-decoration: none;
+  }
+  /* .search-and-sign{
+    position: absolute;
+    top: 50px;
+    right:4px;
+  }  */
+  .signin-btn:hover{
+    /* border: 1px solid red; */
+    background-color: #f8f5f2c9;
+  }
