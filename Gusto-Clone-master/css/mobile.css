@@ -1,0 +1,167 @@
+@media(max-width:600px){
+  #why-gusto-icons{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: auto;
+}
+#mid-cont-box{
+  padding: 20px;
+}
+
+#mid-cont-box h1{
+  font-size: 18px;
+}
+#last-div{
+  width: 95%;
+}
+
+footer{
+ margin-top: 80px;
+}
+footer > span:first-child, footer > a{
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+}
+@media(max-width:768px){
+  #mid-cont-box{
+    min-width: 75%;    
+  }
+
+  #mid-cont-box > h1{
+    font-size: 48px;
+    font-weight: 550;
+    line-height: 0.9;
+    letter-spacing: -0.3px;
+    margin-bottom: 18px;
+    /* margin-top: 4px; */
+  }
+  #mid-cont-box > p{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+  }
+  #why-gusto-icons{
+    
+    /* grid-template-columns: repeat(3, 1fr); */
+  }
+  
+}
+@media(max-width:992px){
+  #covid-msg{
+    display: none;
+  }
+  .nav2{
+    display: none;
+  }
+  #mid-cont-box{
+    min-width: 70%;    
+  }
+#mid-cont-box > h1{
+  font-size: 48px;
+  font-weight: 550;
+  line-height: 0.9;
+  letter-spacing: -0.3px;
+  margin-bottom: 18px;
+  /* margin-top: 4px; */
+}
+#mid-cont-box > p{
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 24px;
+}
+  #hamburger{
+    display: block;
+  }
+  #navbar{
+    background-color: white;
+    /* border: 1px solid red; */
+    padding: 0px;
+    z-index: 1000;
+    max-height: 70px ;
+    
+  }
+
+  #navbar .main-ul{
+    /* border: 1px solid blue; */
+    height: 100vh;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    display: none;
+    overflow-y: scroll;
+  }
+
+  #navbar .main-ul .main-li{
+    width: 100%;
+    /* border: 1px solid green; */
+    text-align: left;
+    padding:17px 20px;
+
+  }
+  #navbar .main-ul .main-li > a{
+    font-size: 30px;
+    
+  }
+  .main-li:hover > .sebmenu{
+    position: static;
+  }
+
+  .sebmenu > ul{
+    /* border: 1px solid red; */
+    border:none;
+    grid-template-columns: 100%;
+    gap: 1.5%;
+  }
+
+  .sebmenu > ul > li{
+    border-bottom: none;
+  }
+  .sebmenu > ul > .center-text-payroll{
+    text-align: left;
+    background-color:white;
+  }
+
+  .main-li i{
+    float: right;
+    margin-right: 20px;
+  }
+  .main-li:hover .sebmenu{
+    display: none;
+  }
+  .main-li>a:hover + .sebmenu{
+    display: none;
+    transition: 2s ease-in;
+  }
+  .main-li:hover > a > i{
+    transform: rotate(45deg);
+    /* transition: 0.3s ease-in; */
+  }
+
+  .search-and-sign{
+    right : 70px;
+    top: 18px;
+  }
+  #why-gusto-mid-img{
+    margin: 40px auto 20px;
+  }
+  #why-gusto-mid-img > img{
+    max-width: 100%;
+  }
+
+  .blocks{
+    flex-direction: column;
+  }  
+
+  #horiz-line hr{
+    width: 32%;
+  }
+}
+
+
+
+
+
