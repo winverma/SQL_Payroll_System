@@ -1,6 +1,6 @@
 ### Project Description: Gusto Clone - Front-End Implementation
 
-The Gusto Clone Project is a front-end implementation aimed at recreating the user interface and experience of the popular payroll and benefits management platform, Gusto. This project focuses on replicating the design, navigation, and interactivity of the platform using HTML, CSS, and JavaScript. It’s intended to demonstrate the key features and functionalities of the Gusto platform, providing a visually appealing and user-friendly experience.
+The Gusto Clone Project is a front-end implementation aimed at recreating the user interface and experience of the popular payroll and benefits management platform, Gusto. This project focuses on replicating the design, navigation, and interactivity of the platform using HTML, CSS, and JavaScript. It’s intended to demonstrate the key features and functionalities of the Gusto platform, providing a visually appealing and user-friendly experience. Link is in the description!
 
 #### Key Features and Functionalities:
 
